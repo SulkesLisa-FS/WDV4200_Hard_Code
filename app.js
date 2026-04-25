@@ -6,6 +6,14 @@ const API_KEY = "FAKE_1234567890_HARDCODED_KEY";
 console.log("NODE_ENV:", NODE_ENV);
 console.log("API_KEY :", API_KEY);
 
+// Secrete Key Check:
+// Warn then Stop the app if no API key is provided
+if (!process.env.API_KEY) {
+  console.error("ERROR: You Need Keys To Run This App");
+  // exit with a non-zero code to signal failure
+  process.exit(1); 
+}
+
 // Http Server
 const http = require("http");
 const hostname = "127.0.0.1";
