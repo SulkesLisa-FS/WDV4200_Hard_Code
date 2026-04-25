@@ -22,7 +22,7 @@ Anyone who views this repository on GitHub can see these values immediately.
 
 ### Requirements
 
-- Node.js latest
+- Node.js (latest LTS)
 - Secret Keys (Already hard coded into the application):
 
     * `NODE_ENV=development`
