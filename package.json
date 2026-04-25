@@ -1,0 +1,21 @@
+{
+  "name": "wdv4200_hard_code",
+  "version": "1.0.0",
+  "description": "hard coded secret demo",
+  "homepage": "https://github.com/SulkesLisa-FS/WDV4200_Hard_Code#readme",
+  "bugs": {
+    "url": "https://github.com/SulkesLisa-FS/WDV4200_Hard_Code/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SulkesLisa-FS/WDV4200_Hard_Code.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+   "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {}
+}
