@@ -7,8 +7,8 @@ console.log("NODE_ENV:", NODE_ENV);
 console.log("API_KEY :", API_KEY);
 
 // Secrete Key Check:
-// Warn then Stop the app if no API key is provided
-if (!process.env.API_KEY) {
+// Warn then Stop the app if either key is missing. 
+if (!API_KEY || !NODE_ENV) {
   console.error("ERROR: You Need Keys To Run This App");
   // exit with a non-zero code to signal failure
   process.exit(1); 
