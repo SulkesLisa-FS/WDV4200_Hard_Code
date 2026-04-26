@@ -30,17 +30,13 @@ Anyone who views this repository on GitHub can see these values immediately.
 
 Once you cd into the application root directory follow these steps:
 
-1.  Install 
 
-        npm install
-
-
-2. Run the simple server with keys hardcoded in the application
+1. Run the simple server with keys hardcoded in the application
 
         node app.js
 
 
-- TEST In the browser
+2. TEST In the browser
 
      `http://127.0.0.1:3000` 
 
